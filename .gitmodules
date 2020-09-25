@@ -1,165 +1,165 @@
 [submodule "pack/colors/start/badwolf"]
 	path = pack/colors/start/badwolf
-	url = git@github.com:sjl/badwolf
+	url = https://github.com/sjl/badwolf
 [submodule "pack/plugins/start/ack.vim"]
 	path = pack/plugins/start/ack.vim
-	url = git@github.com:mileszs/ack.vim
+	url = https://github.com/mileszs/ack.vim
 [submodule "pack/plugins/start/ale"]
 	path = pack/plugins/start/ale
-	url = git@github.com:dense-analysis/ale
+	url = https://github.com/dense-analysis/ale
 [submodule "pack/plugins/start/bufexplorer"]
 	path = pack/plugins/start/bufexplorer
-	url = git@github.com:jlanzarotta/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer
 [submodule "pack/plugins/start/ctrlp.vim"]
 	path = pack/plugins/start/ctrlp.vim
-	url = git@github.com:kien/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
 [submodule "pack/plugins/start/gist-vim"]
 	path = pack/plugins/start/gist-vim
-	url = git@github.com:mattn/gist-vim
+	url = https://github.com/mattn/gist-vim
 [submodule "pack/plugins/start/goyo.vim"]
 	path = pack/plugins/start/goyo.vim
-	url = git@github.com:junegunn/goyo.vim
+	url = https://github.com/junegunn/goyo.vim
 [submodule "pack/colors/start/gruvbox"]
 	path = pack/colors/start/gruvbox
-	url = git@github.com:morhetz/gruvbox
+	url = https://github.com/morhetz/gruvbox
 [submodule "pack/plugins/start/lightline-ale"]
 	path = pack/plugins/start/lightline-ale
-	url = git@github.com:maximbaz/lightline-ale
+	url = https://github.com/maximbaz/lightline-ale
 [submodule "pack/plugins/start/lightline.vim"]
 	path = pack/plugins/start/lightline.vim
-	url = git@github.com:itchyny/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
 [submodule "pack/colors/start/vim-mayanfog"]
 	path = pack/colors/start/vim-mayanfog
-	url = git@github.com:arzg/vim-mayanfog
+	url = https://github.com/arzg/vim-mayanfog
 [submodule "pack/plugins/start/nerdtree"]
 	path = pack/plugins/start/nerdtree
-	url = git@github.com:preservim/nerdtree
+	url = https://github.com/preservim/nerdtree
 [submodule "pack/plugins/start/nginx.vim"]
 	path = pack/plugins/start/nginx.vim
-	url = git@github.com:chr4/nginx.vim
+	url = https://github.com/chr4/nginx.vim
 [submodule "pack/plugins/start/open_file_under_cursor.vim"]
 	path = pack/plugins/start/open_file_under_cursor.vim
-	url = git@github.com:amix/open_file_under_cursor.vim
+	url = https://github.com/amix/open_file_under_cursor.vim
 [submodule "pack/plugins/start/rust.vim"]
 	path = pack/plugins/start/rust.vim
-	url = git@github.com:rust-lang/rust.vim
+	url = https://github.com/rust-lang/rust.vim
 [submodule "pack/plugins/start/tabular"]
 	path = pack/plugins/start/tabular
-	url = git@github.com:godlygeek/tabular
+	url = https://github.com/godlygeek/tabular
 [submodule "pack/plugins/start/tlib_vim"]
 	path = pack/plugins/start/tlib_vim
-	url = git@github.com:tomtom/tlib_vim
+	url = https://github.com/tomtom/tlib_vim
 [submodule "pack/plugins/start/typescript-vim"]
 	path = pack/plugins/start/typescript-vim
-	url = git@github.com:leafgarland/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim
 [submodule "pack/plugins/start/vim-abolish"]
 	path = pack/plugins/start/vim-abolish
-	url = git@github.com:tpope/vim-abolish
+	url = https://github.com/tpope/vim-abolish
 [submodule "pack/plugins/start/vim-addon-mw-utils"]
 	path = pack/plugins/start/vim-addon-mw-utils
-	url = git@github.com:MarcWeber/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils
 [submodule "pack/plugins/start/vim-bundle-mako"]
 	path = pack/plugins/start/vim-bundle-mako
-	url = git@github.com:sophacles/vim-bundle-mako
+	url = https://github.com/sophacles/vim-bundle-mako
 [submodule "pack/plugins/start/vim-coffee-script"]
 	path = pack/plugins/start/vim-coffee-script
-	url = git@github.com:kchmck/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script
 [submodule "pack/colors/start/vim-colors-solarized"]
 	path = pack/colors/start/vim-colors-solarized
-	url = git@github.com:altercation/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
 [submodule "pack/plugins/start/vim-commentary"]
 	path = pack/plugins/start/vim-commentary
-	url = git@github.com:tpope/vim-commentary
+	url = https://github.com/tpope/vim-commentary
 [submodule "pack/plugins/start/vim-expand-region"]
 	path = pack/plugins/start/vim-expand-region
-	url = git@github.com:terryma/vim-expand-region
+	url = https://github.com/terryma/vim-expand-region
 [submodule "pack/plugins/start/vim-flake8"]
 	path = pack/plugins/start/vim-flake8
-	url = git@github.com:nvie/vim-flake8
+	url = https://github.com/nvie/vim-flake8
 [submodule "pack/plugins/start/vim-fugitive"]
 	path = pack/plugins/start/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
 [submodule "pack/plugins/start/vim-gist"]
 	path = pack/plugins/start/vim-gist
-	url = git@github.com:mattn/vim-gist
+	url = https://github.com/mattn/vim-gist
 [submodule "pack/plugins/start/vim-gitgutter"]
 	path = pack/plugins/start/vim-gitgutter
-	url = git@github.com:airblade/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
 [submodule "pack/plugins/start/vim-indent-object"]
 	path = pack/plugins/start/vim-indent-object
-	url = git@github.com:michaeljsmith/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object
 [submodule "pack/plugins/start/vim-javascript"]
 	path = pack/plugins/start/vim-javascript
-	url = git@github.com:pangloss/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
 [submodule "pack/plugins/start/vim-lastplace"]
 	path = pack/plugins/start/vim-lastplace
-	url = git@github.com:farmergreg/vim-lastplace
+	url = https://github.com/farmergreg/vim-lastplace
 [submodule "pack/plugins/start/vim-less"]
 	path = pack/plugins/start/vim-less
-	url = git@github.com:groenewege/vim-less
+	url = https://github.com/groenewege/vim-less
 [submodule "pack/plugins/start/vim-markdown"]
 	path = pack/plugins/start/vim-markdown
-	url = git@github.com:plasticboy/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown
 [submodule "pack/plugins/start/vim-multiple-cursors"]
 	path = pack/plugins/start/vim-multiple-cursors
-	url = git@github.com:terryma/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors
 [submodule "pack/plugins/start/vim-pug"]
 	path = pack/plugins/start/vim-pug
-	url = git@github.com:digitaltoad/vim-pug
+	url = https://github.com/digitaltoad/vim-pug
 [submodule "pack/plugins/start/vim-pyte"]
 	path = pack/plugins/start/vim-pyte
-	url = git@github.com:therubymug/vim-pyte
+	url = https://github.com/therubymug/vim-pyte
 [submodule "pack/plugins/start/vim-python-pep8-indent"]
 	path = pack/plugins/start/vim-python-pep8-indent
-	url = git@github.com:Vimjas/vim-python-pep8-indent
+	url = https://github.com/Vimjas/vim-python-pep8-indent
 [submodule "pack/plugins/start/vim-repeat"]
 	path = pack/plugins/start/vim-repeat
-	url = git@github.com:tpope/vim-repeat
+	url = https://github.com/tpope/vim-repeat
 [submodule "pack/plugins/start/vim-ruby"]
 	path = pack/plugins/start/vim-ruby
-	url = git@github.com:vim-ruby/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby
 [submodule "pack/plugins/start/vim-snipmate"]
 	path = pack/plugins/start/vim-snipmate
-	url = git@github.com:garbas/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate
 [submodule "pack/plugins/start/vim-snippets"]
 	path = pack/plugins/start/vim-snippets
-	url = git@github.com:honza/vim-snippets
+	url = https://github.com/honza/vim-snippets
 [submodule "pack/plugins/start/vim-surround"]
 	path = pack/plugins/start/vim-surround
-	url = git@github.com:tpope/vim-surround
+	url = https://github.com/tpope/vim-surround
 [submodule "pack/plugins/start/vim-yankstack"]
 	path = pack/plugins/start/vim-yankstack
-	url = git@github.com:maxbrunsfeld/vim-yankstack
+	url = https://github.com/maxbrunsfeld/vim-yankstack
 [submodule "pack/plugins/start/vim-zenroom2"]
 	path = pack/plugins/start/vim-zenroom2
-	url = git@github.com:amix/vim-zenroom2
+	url = https://github.com/amix/vim-zenroom2
 [submodule "pack/plugins/start/vim-lsp-settings"]
 	path = pack/plugins/start/vim-lsp-settings
-	url = git@github.com:mattn/vim-lsp-settings
+	url = https://github.com/mattn/vim-lsp-settings
 [submodule "pack/plugins/start/vim-cpp-enhanced-highlight"]
 	path = pack/plugins/start/vim-cpp-enhanced-highlight
-	url = git@github.com:octol/vim-cpp-enhanced-highlight
+	url = https://github.com/octol/vim-cpp-enhanced-highlight
 [submodule "pack/plugins/start/async.vim"]
 	path = pack/plugins/start/async.vim
-	url = git@github.com:prabirshrestha/async.vim
+	url = https://github.com/prabirshrestha/async.vim
 [submodule "pack/plugins/start/vim-lsp"]
 	path = pack/plugins/start/vim-lsp
-	url = git@github.com:prabirshrestha/vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp
 [submodule "pack/plugins/start/tagbar"]
 	path = pack/plugins/start/tagbar
-	url = git@github.com:majutsushi/tagbar
+	url = https://github.com/majutsushi/tagbar
 [submodule "pack/plugins/start/indentLine"]
 	path = pack/plugins/start/indentLine
-	url = git@github.com:Yggdroot/indentLine
+	url = https://github.com/Yggdroot/indentLine
 [submodule "pack/plugins/start/vim-mucomplete"]
 	path = pack/plugins/start/vim-mucomplete
-	url = git@github.com:lifepillar/vim-mucomplete
+	url = https://github.com/lifepillar/vim-mucomplete
 [submodule "pack/plugins/start/coc.nvim"]
 	path = pack/plugins/start/coc.nvim
-	url = git@github.com:neoclide/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
 [submodule "pack/plugins/start/vim-lsp-cxx-highlight"]
 	path = pack/plugins/start/vim-lsp-cxx-highlight
-	url = git@github.com:jackguo380/vim-lsp-cxx-highlight
+	url = https://github.com/jackguo380/vim-lsp-cxx-highlight
 [submodule "pack/plugins/start/vim-tmux-navigator"]
 	path = pack/plugins/start/vim-tmux-navigator
-	url = git@github.com:christoomey/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
