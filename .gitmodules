@@ -133,3 +133,33 @@
 [submodule "pack/plugins/start/vim-zenroom2"]
 	path = pack/plugins/start/vim-zenroom2
 	url = git@github.com:amix/vim-zenroom2
+[submodule "pack/plugins/start/vim-lsp-settings"]
+	path = pack/plugins/start/vim-lsp-settings
+	url = git@github.com:mattn/vim-lsp-settings
+[submodule "pack/plugins/start/vim-cpp-enhanced-highlight"]
+	path = pack/plugins/start/vim-cpp-enhanced-highlight
+	url = git@github.com:octol/vim-cpp-enhanced-highlight
+[submodule "pack/plugins/start/async.vim"]
+	path = pack/plugins/start/async.vim
+	url = git@github.com:prabirshrestha/async.vim
+[submodule "pack/plugins/start/vim-lsp"]
+	path = pack/plugins/start/vim-lsp
+	url = git@github.com:prabirshrestha/vim-lsp
+[submodule "pack/plugins/start/tagbar"]
+	path = pack/plugins/start/tagbar
+	url = git@github.com:majutsushi/tagbar
+[submodule "pack/plugins/start/indentLine"]
+	path = pack/plugins/start/indentLine
+	url = git@github.com:Yggdroot/indentLine
+[submodule "pack/plugins/start/vim-mucomplete"]
+	path = pack/plugins/start/vim-mucomplete
+	url = git@github.com:lifepillar/vim-mucomplete
+[submodule "pack/plugins/start/coc.nvim"]
+	path = pack/plugins/start/coc.nvim
+	url = git@github.com:neoclide/coc.nvim
+[submodule "pack/plugins/start/vim-lsp-cxx-highlight"]
+	path = pack/plugins/start/vim-lsp-cxx-highlight
+	url = git@github.com:jackguo380/vim-lsp-cxx-highlight
+[submodule "pack/plugins/start/vim-tmux-navigator"]
+	path = pack/plugins/start/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator

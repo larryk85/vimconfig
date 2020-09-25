@@ -1,3 +1,10 @@
+set runtimepath+=~/vimconfig
+
+source ~/vimconfig/basic.vim
+source ~/vimconfig/filetypes.vim
+source ~/vimconfig/plugins.vim
+source ~/vimconfig/extended.vim
+
 " enable true color
 if exists('+termguicolors')
     let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
@@ -49,7 +56,7 @@ set noswapfile
 set complete-=i
 set signcolumn=no
 set laststatus=2
-set statusline=\ File:\ %{HasPaste()}%F%m%r%h\ %w\ \ \ Git:\ %{gitbranch#name()}\ \ \ \ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+"set statusline=\ File:\ %{HasPaste()}%F%m%r%h\ %w\ \ \ Git:\ %{gitbranch#name()}\ \ \ \ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
 
 syntax enable
 
@@ -105,11 +112,15 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 "autocmd vimenter * NERDTree
 "autocmd vimenter * wincmd r
 "autocmd vimenter * wincmd l
+let g:NERDTreeWinPos = "left"
+let NERDTreeShowHidden = 1
 let NERDTreeQuitOnOpen = 1
 let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 noremap <leader>nt :NERDTreeToggle<CR>'i'
+noremap <leader>nb :NERDTreeFromBookmark<CR>'i'
+noremap <leader>nf :NERDTreeFind<CR>'i'
 
 " colorscheme
 set background=dark
@@ -125,3 +136,74 @@ let g:multi_cursor_next_key = '<C-n>'
 let g:multi_cursor_prev_key = '<C-p>'
 let g:multi_cursor_skip_key = '<C-x>'
 let g:mutli_cursor_quit_key = '<Esc>'
+
+" git gutter
+let g:gitgutter_enabled=0
+nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+" indentLine
+let g:indentLine_enabled = 1
+let g:indentLine_char_list = ['┊'] " ['|', '¦', '┆', '┊']
+set conceallevel=1
+let g:indentLine_conceallevel=1
+
+" mucomplete
+set completeopt+=menuone
+set completeopt+=noselect
+set shortmess+=c
+set complete-=i
+let g:mucomplete#enable_auto_at_startup = 1
+let g:mucomplete#chains = {}
+let g:mucomplete#chains.default  = ['path', 'omni', 'keyn', 'dict', 'ulti']
+let g:mucomplete#chains.markdown = ['path', 'keyn', 'dict', 'uspl']
+let g:mucomplete#chains.vim      = ['path', 'keyn', 'dict', 'uspl']
+
+" To do the first type of search, hit 'CTRL-\', followed by one of the
+ " cscope search types above (s,g,c,t,e,f,i,d).  The result of your cscope
+ " search will be displayed in the current window.  You can use CTRL-T to
+ " go back to where you were before the search.  
+ "
+
+ nmap <C-\>s :cs find s <C-R>=expand("<cword>")<CR><CR>	
+ nmap <C-\>g :cs find g <C-R>=expand("<cword>")<CR><CR>	
+ nmap <C-\>c :cs find c <C-R>=expand("<cword>")<CR><CR>	
+ nmap <C-\>t :cs find t <C-R>=expand("<cword>")<CR><CR>	
+ nmap <C-\>e :cs find e <C-R>=expand("<cword>")<CR><CR>	
+ nmap <C-\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>	
+ nmap <C-\>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+ nmap <C-\>d :cs find d <C-R>=expand("<cword>")<CR><CR>	
+
+
+ " Using 'CTRL-spacebar' (intepreted as CTRL-@ by vim) then a search type
+ " makes the vim window split horizontally, with search result displayed in
+ " the new window.
+ "
+ " (Note: earlier versions of vim may not have the :scs command, but it
+ " can be simulated roughly via:
+ "    nmap <C-@>s <C-W><C-S> :cs find s <C-R>=expand("<cword>")<CR><CR>	
+
+ nmap <C-@>s :scs find s <C-R>=expand("<cword>")<CR><CR>	
+ nmap <C-@>g :scs find g <C-R>=expand("<cword>")<CR><CR>	
+ nmap <C-@>c :scs find c <C-R>=expand("<cword>")<CR><CR>	
+ nmap <C-@>t :scs find t <C-R>=expand("<cword>")<CR><CR>	
+ nmap <C-@>e :scs find e <C-R>=expand("<cword>")<CR><CR>	
+ nmap <C-@>f :scs find f <C-R>=expand("<cfile>")<CR><CR>	
+ nmap <C-@>i :scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>	
+ nmap <C-@>d :scs find d <C-R>=expand("<cword>")<CR><CR>	
+
+
+ " Hitting CTRL-space *twice* before the search type does a vertical 
+ " split instead of a horizontal one (vim 6 and up only)
+ "
+ " (Note: you may wish to put a 'set splitright' in your .vimrc
+ " if you prefer the new window on the right instead of the left
+
+ nmap <C-@><C-@>s :vert scs find s <C-R>=expand("<cword>")<CR><CR>
+ nmap <C-@><C-@>g :vert scs find g <C-R>=expand("<cword>")<CR><CR>
+ nmap <C-@><C-@>c :vert scs find c <C-R>=expand("<cword>")<CR><CR>
+ nmap <C-@><C-@>t :vert scs find t <C-R>=expand("<cword>")<CR><CR>
+ nmap <C-@><C-@>e :vert scs find e <C-R>=expand("<cword>")<CR><CR>
+ nmap <C-@><C-@>f :vert scs find f <C-R>=expand("<cfile>")<CR><CR>	
+ nmap <C-@><C-@>i :vert scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>	
+ nmap <C-@><C-@>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
+
