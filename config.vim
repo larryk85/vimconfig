@@ -207,3 +207,6 @@ let g:mucomplete#chains.vim      = ['path', 'keyn', 'dict', 'uspl']
  nmap <C-@><C-@>i :vert scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>	
  nmap <C-@><C-@>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
 
+ if executable('ag')
+    let g:ackprg = 'ag --vimgrep'
+ endif
