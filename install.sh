@@ -6,4 +6,4 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 ln -s ~/vimconfig/config.vim ~/.vimrc
 ln -s ~/vimconfig/pack ~/.vim/pack
 ln -s ~/vimconfig/tmux.conf ~/.tmux.conf
-ln -s ~/vimconfig/zshrc ~/.zshrc
+ln -s ~/vimconfig/config.zsh ~/.zshrc
